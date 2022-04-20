@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="logo">
+          <img src="https://cdn.cdnlogo.com/logos/r/11/rakuten.svg" />
+        </div>
+        <div class="address-panel">
+          <strong>Your Company's Address</strong>
+          <p>XYZ Company</p>
+          <p>Phone Number</p>
+          <p>Email Address</p>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="inner-body">
+          <div class="title">HELLO, BOOK YOUR APPOINTMENT</div>
+          <div class="wrapper">
+            <div class="left-panel">
+              <select>
+                <option>Consultancy Department</option>
+              </select>
+              <select>
+                <option>Choose a Doctor</option>
+              </select>
+              <div class="toggle">
+                <div>Online</div>
+                <div>In Office</div>
+              </div>
+              <select>
+                <option>Choose a Location</option>
+              </select>
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+              <input type="number" placeholder="Phone #" />
+              <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="right-panel">
+              <section class="ftco-section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="calendar calendar-first" id="calendar_first">
+                        <div class="calendar_header">
+                          <button class="switch-month switch-left">
+                            <i class="fa fa-chevron-left"></i>
+                          </button>
+                          <h2></h2>
+                          <button class="switch-month switch-right">
+                            <i class="fa fa-chevron-right"></i>
+                          </button>
+                        </div>
+                        <div class="calendar_weekdays"></div>
+                        <div class="calendar_content"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="select-spec">
+                <span class="items">Set a Time</span>
+                <span class="items">6:30 PM 
+                  <span class="arrow">
+                    <img src="./icons8-expand-arrow-24.png" alt="down-arrow" height="20" width="20">
+                  </span>
+                </span>
+              </div>
+              <textarea placeholder="Notes(Optional)"></textarea>
+            </div>
+          </div>
+          <div class="booking-confirm">Confirm  Your Bookings</div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
